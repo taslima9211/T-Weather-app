@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:
+}
+body{
+    background-image: url("");
+}
+.container{
+    background-image: url("taylor-van-riper-yQorCngxzwI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+.app{
+    background-color:rgba(0, 0, 139, 0.34);
+    width: 350px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    /* text-align: center; */
+    
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px ;
+    height: 50%;
+}
+.search input{
+    border: none;
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.search input:hover{
+     background-color: aqua;
+     color: black;
+}
+
+
+h1{
+   
+    color: white;
+    text-align: center;
+    margin: 20PX;
+}
+.search button{
+    padding:20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+.search button:hover{
+    background-color: aqua;
+    color: black;
+}
+.wether-details{
+    text-align: center;
+    color: white;
+}
+
+.h2-style{
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;;
+    color:white;
+}
+.h2-style2{
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;;
+    color:whitesmoke ;
+}
